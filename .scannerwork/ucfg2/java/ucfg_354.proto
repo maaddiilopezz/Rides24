@@ -1,0 +1,43 @@
+
+`businessLogic.BLFacadeImplementation#getTravelerTransactions(Ljava/lang/String;)Ljava/util/List;k
+_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaÔ Ô(1"startingBlock*…
+startingBlock
+Ô1 Ô(?…
+‚
+
+Ó Ó(
+%0"
+__annotate*)
+
+__unknown_file (
+	WebMethod*7
+
+__unknown_file (
+
+emailjava.lang.String[
+Y
+
+Ô9 Ô(>
+emailjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%0*
+1*ƒ
+1
+Õ Õ(M
+K
+
+Ö Ö(?
+ljava.util.List"__id*"
+
+__unknown_file (
+"""#
+
+Ø Ø(
+
+ljava.util.List:'
+
+Ô2 Ô(>
+emailjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

@@ -1,0 +1,107 @@
+
+1.0maaddiilopezz_rides24JavaFrontend"1759332322858*java2.B³
+C
+>src/main/java/exceptions/NotEnoughAvailableSeatsException.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+
+exceptions7
+0
++exceptions.NotEnoughAvailableSeatsException9
+
+	exception10
+
+access11
+
+public12
+
+simple-name13
+&
+ NotEnoughAvailableSeatsException14
+B
+<exceptions.NotEnoughAvailableSeatsException.serialVersionUID16
+
+field17
+
+private18
+
+serialVersionUID19
+;
+5exceptions.NotEnoughAvailableSeatsException#<init>()V21
+
+method22
+
+calls23
+M
+Gexceptions.NotEnoughAvailableSeatsException#<init>(Ljava/lang/String;)V25J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576j†
+;
+86
+8910 *
+1 (.:5B
+
+
+11
+12
+
+
+13
+14
+A
+20;
+202122 *
+1 (	28:5B
+
+
+11
+12
+
+
+13
+14
+A
+24;
+242522 *
+1 (
+28:5B
+
+
+11
+12
+
+
+13
+14
+A
+15;
+151617 *
+1 (	28:5B
+
+
+11
+18
+
+
+13
+19r4
+
+20823*
+1
+ (*
+
+24823*
+1 (+

@@ -1,0 +1,5 @@
+&thisq q("domain.Reservationacceptedq q()"boolean":*
+(
+r r("#set-field# accepted:
+
+s s(*M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Reservation.java

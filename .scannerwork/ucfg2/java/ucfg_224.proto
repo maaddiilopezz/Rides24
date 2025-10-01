@@ -1,0 +1,27 @@
+
+QdataAccess.DataAccess#getTravelerReservations(Ljava/lang/String;)Ljava/util/List;\
+P/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/DataAccess.java¢ ¢(1"1*§
+1
+£ £(N
+L
+
+¤ ¤(.
+tdomain.Traveler"__id*"
+
+__unknown_file (
+""Ÿœ
+
+¦	 ¦(
+%0java.util.List"1domain.Traveler#getReservations()Ljava/util/List;*2
+
+__unknown_file (
+
+tdomain.Traveler2getReservations()"$
+
+¦ ¦(
+
+%0java.util.List:'
+
+¢2 ¢(>
+emailjava.lang.StringB
+dataAccess.DataAccessH

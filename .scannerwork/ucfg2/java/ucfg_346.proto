@@ -1,0 +1,119 @@
+
+óbusinessLogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;FLjava/lang/String;Ljava/lang/String;)Ldomain/Ride;i
+_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java@ @("startingBlock*Ñ	
+startingBlock@ @(pÅ
+
+? ?(
+%0"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringX
+V
+@" @(&
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%0
+}
+? ?(
+%1"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringV
+T
+@/ @(1
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1
+}
+? ?(
+%2"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+datejava.util.DateV
+T
+@8 @(<
+datejava.util.Date"__annotation*"
+
+__unknown_file (
+
+%2â
+Ü
+? ?(
+%3"
+__annotate*)
+
+__unknown_file (
+	WebMethod*=
+
+__unknown_file (!
+
+driverEmailjava.lang.String_
+]
+@Q @(\
+driverEmailjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3á
+Ñ
+? ?(
+%4"
+__annotate*)
+
+__unknown_file (
+	WebMethod*;
+
+__unknown_file (
+
+	carPlacesjava.lang.String]
+[
+@e @(n
+	carPlacesjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*}
+1B B(K
+I
+C C(P
+ridedomain.Ride"__id*"
+
+__unknown_file (
+"""!
+E E(
+
+ridedomain.Ride:$
+@ @('
+fromjava.lang.String:"
+@( @(2
+tojava.lang.String:"
+@3 @(=
+datejava.util.Date: 
+
+__unknown_file (
+"":+
+@J @(]
+driverEmailjava.lang.String:)
+@^ @(n
+	carPlacesjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

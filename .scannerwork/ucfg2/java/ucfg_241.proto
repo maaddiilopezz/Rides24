@@ -1,0 +1,26 @@
+
+=dataAccess.DataAccess#getTravelerRatings(Ljava/lang/String;)F\
+P/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/DataAccess.java³ ³( "1*ÿ
+1
+´ ´(N
+L
+
+µ µ(.
+ddomain.Traveler"__id*"
+
+__unknown_file (
+""‡„
+
+·	 ·(
+%0float""domain.Traveler#calculateRating()F*2
+
+__unknown_file (
+
+ddomain.Traveler2calculateRating()"
+
+· ·(
+"":'
+
+³! ³(-
+emailjava.lang.StringB
+dataAccess.DataAccessHX

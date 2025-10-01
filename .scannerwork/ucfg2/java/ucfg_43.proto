@@ -1,0 +1,79 @@
+
+Sdomain.Driver#doesRideExists(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)ZT
+H/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Driver.java© ©("1"6*%
+3
+¬ ¬("
+
+¬ ¬(
+""*
+4
+«e «(iä
+á
+«e «(
+%2"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
+
+__unknown_file ("
+java.util.Objects*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+datejava.util.Date*	
+3
+6
+1*€
+5
+«9 «(=ã
+à
+
+«9 «(_
+%1"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
+
+__unknown_file ("
+java.util.Objects*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+tojava.lang.String*	
+4
+6
+1*‚
+6
+«	 «(å
+â
+
+«	 «(3
+%0"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
+
+__unknown_file ("
+java.util.Objects*"
+
+__unknown_file (
+""*6
+
+__unknown_file (
+
+fromjava.lang.String*	
+5
+6
+1*%
+1
+®	 ®("
+
+® ®(
+"":&
+
+© ©(+
+fromjava.lang.String:$
+
+©, ©(6
+tojava.lang.String:$
+
+©7 ©(@
+datejava.util.DateB
+domain.DriverHX

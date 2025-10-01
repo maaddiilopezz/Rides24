@@ -1,0 +1,76 @@
+
+sbusinessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;i
+_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaL L("startingBlock*Æ
+startingBlockL L(>Å
+
+K K(
+%0"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringX
+V
+L# L('
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%0
+}
+K K(
+%1"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringV
+T
+L0 L(2
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1
+}
+K K(
+%2"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+datejava.util.DateV
+T
+L9 L(=
+datejava.util.Date"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ö
+1M M(O
+M
+N N(7
+ridesjava.util.List"__id*"
+
+__unknown_file (
+"""%
+P P(
+
+ridesjava.util.List:$
+L L((
+fromjava.lang.String:"
+L) L(3
+tojava.lang.String:"
+L4 L(=
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementationH

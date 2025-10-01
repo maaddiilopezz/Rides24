@@ -1,0 +1,6 @@
+thisR R("domain.Ride+
+rideNumberR R(-"java.lang.Integer"<,
+*
+S S("#set-field# rideNumber:
+
+T T(*F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.java

@@ -1,0 +1,124 @@
+
+(domain.Ride#toString()Ljava/lang/String;R
+F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.javaÔ Ô("1*“
+
+1
+Õ	 Õ(j
+h
+
+Õ	 Õ(
+%0java.lang.Integer"__id*;
+
+__unknown_file (*
+domain.Ride"
+
+rideNumbern
+l
+
+Õ	 Õ(
+%1java.lang.String"__concat*'
+
+Õ	 Õ(
+
+%0java.lang.Integer*
+
+Õ Õ(
+;m
+k
+
+Õ	 Õ(
+%2java.lang.String"__concat*&
+
+Õ	 Õ(
+
+%1java.lang.String*
+
+Õ Õ(
+;c
+a
+
+Õ Õ( 
+%3java.lang.String"__id*5
+
+__unknown_file (*
+domain.Ride"
+from€
+~
+
+Õ	 Õ( 
+%4java.lang.String"__concat*&
+
+Õ	 Õ(
+
+%2java.lang.String*&
+
+Õ Õ( 
+
+%3java.lang.Stringm
+k
+
+Õ	 Õ($
+%5java.lang.String"__concat*&
+
+Õ	 Õ( 
+
+%4java.lang.String*
+
+Õ! Õ($
+;a
+_
+
+Õ% Õ('
+%6java.lang.String"__id*3
+
+__unknown_file (*
+domain.Ride"
+to€
+~
+
+Õ	 Õ('
+%7java.lang.String"__concat*&
+
+Õ	 Õ($
+
+%5java.lang.String*&
+
+Õ% Õ('
+
+%6java.lang.Stringm
+k
+
+Õ	 Õ(+
+%8java.lang.String"__concat*&
+
+Õ	 Õ('
+
+%7java.lang.String*
+
+Õ( Õ(+
+;a
+_
+
+Õ, Õ(0
+%9java.util.Date"__id*5
+
+__unknown_file (*
+domain.Ride"
+date
+}
+
+Õ	 Õ(0
+%10java.lang.String"__concat*&
+
+Õ	 Õ(+
+
+%8java.lang.String*$
+
+Õ, Õ(0
+
+%9java.util.Date"'
+
+Õ Õ(1
+
+%10java.lang.StringB
+domain.RideH

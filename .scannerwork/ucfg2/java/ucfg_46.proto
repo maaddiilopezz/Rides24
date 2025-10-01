@@ -1,0 +1,75 @@
+
+domain.Driver#takeMoney(F)ZT
+H/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Driver.javaÊ Ê("3*«
+2
+Ì Ì(qo
+
+Ì Ì( 
+%2float"domain.Driver#getMoney()F*-
+
+__unknown_file (
+domain.Driver2
+getMoney()p
+n
+
+Ì Ì('
+%3float"__calculate*
+
+Ì  Ì(!
+-*
+
+Ì Ì( 
+
+%2float*
+
+Ì! Ì('
+""ž›
+
+Ì Ì((
+
+%4void"domain.Driver#setMoney(F)V*-
+
+__unknown_file (
+domain.Driver*)
+
+__unknown_file (
+
+%3float2setMoney(F)"
+
+Í Í(
+""*ü
+3
+Ë Ë(qo
+
+Ë Ë(
+%0float"domain.Driver#getMoney()F*-
+
+__unknown_file (
+domain.Driver2
+getMoney()p
+n
+
+Ë Ë(
+%1boolean"	__compare*
+
+Ë Ë(
+<*
+
+Ë Ë(
+""*
+
+Ë Ë(
+
+%0float*
+2
+1*%
+1
+Ï
+ Ï("
+
+Ï Ï(
+"": 
+
+__unknown_file (
+""B
+domain.DriverHX

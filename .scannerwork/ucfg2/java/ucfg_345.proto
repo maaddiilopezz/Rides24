@@ -1,0 +1,36 @@
+
+]businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;i
+_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java4  4(4"startingBlock*¸
+startingBlock44 4(AÅ
+
+4 4(
+%0"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringX
+V
+4< 4(@
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%0*
+1*ì
+15 5(V
+T
+6 6(=
+targetCitiesjava.util.List"__id*"
+
+__unknown_file (
+""",
+9 9( 
+
+targetCitiesjava.util.List:$
+45 4(@
+fromjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

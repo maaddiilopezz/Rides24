@@ -1,0 +1,259 @@
+
+1.0maaddiilopezz_rides24JavaFrontend"1759332323837*java2.B­
+/
+*src/main/java/gui/ApplicationLauncher.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+gui7
+
+gui.ApplicationLauncher9
+
+class10
+
+access11
+
+public12
+
+simple-name13
+
+ApplicationLauncher14
+8
+2gui.ApplicationLauncher#main([Ljava/lang/String;)V16
+
+method17
+
+
+main18
+
+configuration.ConfigXML20
+
+unknown21
+
+is type22
+
+
+uses23
+
+returns24
+
+
+references25
+D
+>configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;27
+
+calls28
+;
+5configuration.ConfigXML#getLocale()Ljava/lang/String;30
+$
+Recovered#typeBindingLDriver;032
+
+gui.MainGUI34
+
+businessLogic.BLFacade36
+5
+/configuration.ConfigXML#isBusinessLogicLocal()Z38
+
+dataAccess.DataAccess40
+F
+@configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;42
+F
+@configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;44
+F
+@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;46
+%
+Recovered#typeBindingLService;048
+>
+8gui.MainGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V50
+
+gui.MainGUI.jLabelWelcome52J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576j˜
+
+51
+515221
+
+29
+293021
+
+41
+414221
+
+49
+495021
+
+47
+474821
+A
+15;
+151617 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+18
+
+35
+353621
+
+31
+313221
+
+43
+434421
+
+33
+333421
+
+37
+373821
+
+45
+454621
+
+26
+262721
+
+19
+192021
+
+39
+394021
+;
+86
+8910 *
+1 (!:5B
+
+
+11
+12
+
+
+13
+14rÌ
+
+151922*
+1 (
+
+151923*
+1 (
+
+151924*
+1 (
+
+151925*
+1 (
+
+152628*
+1 ($
+
+151923*
+1 (
+
+151925*
+1 (
+
+152928*
+1 (!
+
+151925*
+1  (!
+
+152928*
+1" (+
+
+153122*
+1 (
+
+153123*
+1 (
+
+153322*
+1" "(
+
+153323*
+1" "(
+
+
+153328*
+1" "(
+
+153522*
+1( ((
+
+153523*
+1( ((
+
+151925*
+1+ +(	
+
+153728*
+1+
+ +(
+
+153922*
+1- -(
+
+153923*
+1- -(
+
+153928*
+1- -("
+
+151925*
+15$ 5(%
+
+154128*
+15& 5(:
+
+151925*
+15C 5(D
+
+154328*
+15E 5(Y
+
+151925*
+15c 5(d
+
+154528*
+15e 5(y
+
+154722*
+1> >(
+
+154723*
+1> >(
+
+153523*
+1@1 @(9
+
+153325*
+1C C(
+
+154928*
+1C C(
+
+153323*
+1C C(
+
+155125*
+1I I(
+
+155125*
+1J J(
