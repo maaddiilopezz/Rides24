@@ -1,4 +1,5 @@
-&this1 1(""domain.Reservation"UC
-A
-2	 2("#get-field# reservationCode:Bjava.lang.Integer
-2 2(*M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Reservation.java
+thisI I("
+domain.Car"?-
++
+J	 J("#get-field# nPlaces:Bint
+J J(*E/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Car.java

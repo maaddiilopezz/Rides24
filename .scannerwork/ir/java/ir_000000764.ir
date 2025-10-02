@@ -1,23 +1,5 @@
 
-
-
-3int&this) )("domain.Transactionamount) )(""double/d)$ )(,"Recovered#typeBindingLDriver;01t). )(8" Recovered#typeBindingLTraveler;0"ð(
-&
-* *("#set-field# amount:!
-
-+	 +(
-"#unknown-value##
-!
-+ +(
-"#set-field# d:!
-
-,	 ,(
-"#unknown-value##
-!
-, ,(
-	"#set-field# t:&
-$
-- -("#set-field# type:
-
-
-. .(*M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Transaction.java
+5"src/main/resources/config.xml"java.lang.String+this ("configuration.ConfigXML";,
+*
+ (="#set-field# configFile:	
+ ¬(*R/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/configuration/ConfigXML.java

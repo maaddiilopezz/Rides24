@@ -1,17 +1,12 @@
 package gui;
 
-import businessLogic.BLFacade;
-import configuration.UtilDate;
 
-import com.toedter.calendar.JCalendar;
+import businesslogic.BLFacade;
 import domain.*;
 import javax.swing.*;
-import javax.swing.event.ListSelectionListener;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.beans.*;
-import java.text.DateFormat;
 import java.util.*;
 import java.util.List;
 
@@ -128,10 +123,10 @@ public class CheckComplaintAdminGUI extends JFrame {
 		JButton jButtonAccept = new JButton(ResourceBundle.getBundle("Etiquetas").getString("CheckReservationsGUI.jButtonAccept")); //$NON-NLS-1$ //$NON-NLS-2$
 		jButtonAccept.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				List<Complaint> comList = facade.getAllComplaint();;
+				List<Complaint> comList = facade.getAllComplaint();
 				Complaint c = comList.get(tableReservations.getSelectedRow());
 				facade.acceptComplaint(c);
-				comList = facade.getAllComplaint();;
+				comList = facade.getAllComplaint();
 				updateComplaint(comList);
 			}
 		});

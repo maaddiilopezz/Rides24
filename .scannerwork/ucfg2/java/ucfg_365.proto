@@ -1,35 +1,18 @@
 
-JbusinessLogic.BLFacadeImplementation#getDriverRatings(Ljava/lang/String;)Fk
-_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaÄ Ä(!"startingBlock*…
-startingBlock
-Ä! Ä(/…
-‚
-
-Ã Ã(
-%0"
-__annotate*)
-
-__unknown_file (
-	WebMethod*7
-
-__unknown_file (
-
-emailjava.lang.String[
-Y
-
-Ä) Ä(.
-emailjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%0*
-1*%
+%domain.Ride#getDate()Ljava/util/Date;R
+F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.java‹ ‹("1*˜
 1
-Å Å("
+Œ	 Œ(a
+_
 
-È È(
-"":'
+Œ	 Œ(
+%0java.util.Date"__id*5
+
+__unknown_file (*
+domain.Ride"
+date"$
 
-Ä" Ä(.
-emailjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationHX
+Œ Œ(
+
+%0java.util.DateB
+domain.RideH

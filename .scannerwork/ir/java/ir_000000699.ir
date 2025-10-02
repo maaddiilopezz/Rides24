@@ -1,6 +1,5 @@
-this) )("
-domain.Cardisabled) )()"boolean":*
-(
-* *("#set-field# disabled:
+&this; ;("domain.Transaction#id; ;("java.lang.Integer"4$
+"
+< <("#set-field# id:
 
-+ +(*E/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Car.java
+= =(*M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Transaction.java

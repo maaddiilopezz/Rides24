@@ -1,15 +1,7 @@
 
--domain.Transaction#getId()Ljava/lang/Integer;W
-M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Transaction.java7 7("1*ù
-18	 8(g
-e
-8	 8(
-%0java.lang.Integer"__id*:
-
-__unknown_file (*
-domain.Transaction"
-id"%
-8 8(
-
-%0java.lang.IntegerB
-domain.TransactionH
+5domain.Complaint#getTravelerEmail()Ljava/lang/String;U
+K/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Complaint.javaE E("1*!
+1F	 F("
+F F(+
+""B
+domain.ComplaintH

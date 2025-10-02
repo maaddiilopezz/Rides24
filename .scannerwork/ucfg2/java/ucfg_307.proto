@@ -1,19 +1,17 @@
 
-1domain.Reservation#getTraveler()Ldomain/Traveler;Y
-M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Reservation.java‰ ‰("1*¥
-1
-Š	 Š(m
-k
-
-Š	 Š(
-%0domain.Traveler"__id*@
+'domain.Car#toString()Ljava/lang/String;O
+E/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Car.javaQ Q("1*–
+1R	 R(a
+_
+R	 R(
+%0java.lang.String"__id*5
 
-__unknown_file ($*"
-domain.Reservation"
+__unknown_file (*
 
-traveler"%
+domain.Car"
+plate"$
+R R(
+
+%0java.lang.StringB
 
-Š Š(
-
-%0domain.TravelerB
-domain.ReservationH
+domain.CarH

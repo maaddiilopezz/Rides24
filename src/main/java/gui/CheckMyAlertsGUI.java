@@ -1,9 +1,10 @@
 package gui;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 
 import com.toedter.calendar.JCalendar;
+
+import businesslogic.BLFacade;
 import domain.*;
 import javax.swing.*;
 import javax.swing.event.ListSelectionListener;
@@ -125,7 +126,7 @@ public class CheckMyAlertsGUI extends JFrame {
 						if(!al.isSortuta()) {
 							jLabelError.setText(ResourceBundle.getBundle("Etiquetas").getString("CheckMyAlertsGUI.jLabelError1"));
 						}else {
-							List<Ride> r = (List<Ride>) facade.isRideBeenCreated(al);
+							List<Ride> r = facade.isRideBeenCreated(al);
 							JFrame a = new CheckMyAlertRidesGUI(t, r);
 							a.setVisible(true);
 							dispose();

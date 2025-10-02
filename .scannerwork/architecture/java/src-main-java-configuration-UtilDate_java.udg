@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759332322985*java2.Bæ
+1.0maaddiilopezz_rides24JavaFrontend"1759396983680*java2.BÇ
 .
 )src/main/java/configuration/UtilDate.java2
 	
@@ -22,25 +22,31 @@
 simple-name13
 
 UtilDate14
-C
-=configuration.UtilDate#trim(Ljava/util/Date;)Ljava/util/Date;16
+&
+ configuration.UtilDate#<init>()V16
 
 method17
 
+private18
+
+calls19
+C
+=configuration.UtilDate#trim(Ljava/util/Date;)Ljava/util/Date;21
 
-trim18
+
+trim22
 9
-3configuration.UtilDate#newDate(III)Ljava/util/Date;20
+3configuration.UtilDate#newDate(III)Ljava/util/Date;24
 
-newDate21
+newDate25
 L
-Fconfiguration.UtilDate#firstDayMonth(Ljava/util/Date;)Ljava/util/Date;23
+Fconfiguration.UtilDate#firstDayMonth(Ljava/util/Date;)Ljava/util/Date;27
 
-firstDayMonth24
+firstDayMonth28
 K
-Econfiguration.UtilDate#lastDayMonth(Ljava/util/Date;)Ljava/util/Date;26
+Econfiguration.UtilDate#lastDayMonth(Ljava/util/Date;)Ljava/util/Date;30
 
-lastDayMonth27J
+lastDayMonth31J
 
 1
 12
@@ -50,11 +56,11 @@ Econfiguration.UtilDate#lastDayMonth(Ljava/util/Date;)Ljava/util/Date;26
 4Z
 
 5	
-576j…
+576jå
 A
-22;
-222317 *
-1 (28:5B
+26;
+262717 *
+1   (28:5B
 
 
 11
@@ -62,11 +68,11 @@ A
 
 
 13
-24
+28
 A
-19;
-192017 *
-1 (28:5B
+23;
+232417 *
+1 (28:5B
 
 
 11
@@ -74,21 +80,31 @@ A
 
 
 13
-21
+25
+A
+20;
+202117 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+22
 A
 15;
 151617 *
-1
- 
-(28:5B
+1	 	(	28:5B
 
 
 11
-12
+18
 
 
 13
-18
+14
 ;
 86
 8910 *
@@ -102,9 +118,9 @@ A
 13
 14
 A
-25;
-252617 *
-1- -(28:5B
+29;
+293017 *
+1. .(28:5B
 
 
 11
@@ -112,4 +128,8 @@ A
 
 
 13
-27
+31r
+
+15819*
+1	
+ 	(

@@ -1,7 +1,7 @@
 
-domain.Transaction#getType()IW
-M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Transaction.java? ?("1*!
-1@	 @("
-@ @(
-""B
-domain.TransactionHX
+4domain.Complaint#getTravelerName()Ljava/lang/String;U
+K/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Complaint.javaM M("1*!
+1N	 N("
+N N(*
+""B
+domain.ComplaintH

@@ -1,9 +1,10 @@
 package gui;
 
-import businessLogic.BLFacade;
 import configuration.UtilDate;
 
 import com.toedter.calendar.JCalendar;
+
+import businesslogic.BLFacade;
 import domain.*;
 import javax.swing.*;
 import javax.swing.event.ListSelectionListener;
@@ -122,7 +123,7 @@ public class CheckOwnRidesGUI extends JFrame {
 				if(!(tableReservations.getSelectedRow()==-1)) {
 					List<Ride> resList = facade.getDriverRides(driver.getEmail());
 					tableReservations.setEnabled(false);
-					facade.removeRideDriver(resList.get(tableReservations.getSelectedRow()).getRideNumber(), driver.getEmail());;
+					facade.removeRideDriver(resList.get(tableReservations.getSelectedRow()).getRideNumber(), driver.getEmail());
 					resList = facade.getDriverRides(driver.getEmail());
 					updateReservations(resList);
 					tableReservations.setEnabled(true);

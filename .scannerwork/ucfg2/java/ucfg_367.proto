@@ -1,66 +1,9 @@
 
-hbusinessLogic.BLFacadeImplementation#getAdminByEmail(Ljava/lang/String;Ljava/lang/String;)Ldomain/Admin;k
-_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaÔ Ô( "startingBlock*ð
-startingBlock
-Ô  Ô(?…
-‚
-
-Ó Ó(
-%0"
-__annotate*)
-
-__unknown_file (
-	WebMethod*7
-
-__unknown_file (
-
-emailjava.lang.String[
-Y
-
-Ô( Ô(-
-emailjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%0ˆ
-…
-
-Ó Ó(
-%1"
-__annotate*)
-
-__unknown_file (
-	WebMethod*:
-
-__unknown_file (
-
-passwordjava.lang.String^
-\
-
-Ô6 Ô(>
-passwordjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%1*
-1*
+domain.Ride#getnPlaces()IR
+F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.java˜ ˜("1*%
 1
-Õ Õ(K
-I
+™	 ™("
 
-Ö Ö(:
-adomain.Admin"__id*"
-
-__unknown_file (
-"""!
-
-Ø Ø(
-
-adomain.Admin:'
-
-Ô! Ô(.
-emailjava.lang.String:*
-
-Ô/ Ô(>
-passwordjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+™ ™(
+""B
+domain.RideHX

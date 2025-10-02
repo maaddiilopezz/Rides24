@@ -1,15 +1,26 @@
 
-*domain.Driver#getEmail()Ljava/lang/String;R
-H/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Driver.java< <("1*™
-1=	 =(d
-b
-=	 =(
-%0java.lang.String"__id*8
+;dataAccess.DataAccess#getDriverRatings(Ljava/lang/String;)F\
+P/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/DataAccess.java« «("1*ù
+1
+¬ ¬(L
+J
+
+­ ­(*
+ddomain.Driver"__id*"
 
-__unknown_file (*
-domain.Driver"
-email"$
-= =(
-
-%0java.lang.StringB
-domain.DriverH
+__unknown_file (
+""ƒ€
+
+¯	 ¯(
+%0float" domain.Driver#calculateRating()F*0
+
+__unknown_file (
+
+ddomain.Driver2calculateRating()"
+
+¯ ¯(
+"":'
+
+« «(+
+emailjava.lang.StringB
+dataAccess.DataAccessHX

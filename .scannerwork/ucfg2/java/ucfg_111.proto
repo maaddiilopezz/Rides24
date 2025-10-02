@@ -1,13 +1,7 @@
 
-0gui.CheckComplaintAdminGUI$1#isCellEditable(II)Z_
-U/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/gui/CheckComplaintAdminGUI.java- -()"1*!
-1. .("
-. .(
-"": 
-
-__unknown_file (
-"": 
-
-__unknown_file (
-""B 
-gui.CheckComplaintAdminGUI$1HX
+domain.Reservation#isPayed()ZW
+M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Reservation.java] ]("1*!
+1^	 ^("
+^ ^(
+""B
+domain.ReservationHX

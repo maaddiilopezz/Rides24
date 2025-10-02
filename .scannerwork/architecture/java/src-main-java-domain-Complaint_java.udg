@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759332324323*java2.Bë
+1.0maaddiilopezz_rides24JavaFrontend"1759396983879*java2.BÝ
 (
 #src/main/java/domain/Complaint.java2
 	
@@ -144,12 +144,12 @@ $
 4domain.Complaint#getTravelerName()Ljava/lang/String;106
 
 getTravelerName107
-.
-'domain.Complaint#getRide()Ldomain/Ride;109
+'
+ domain.Complaint#getRide()LRide;109
 
 getRide110
-
-domain.Ride112J
+
+Ride112J
 
 1
 12
@@ -219,6 +219,17 @@ A
 
 13
 51
+E
+108>
+10810963 *
+1Q Q(28:5B
+
+
+11
+12
+
+13
+110
 
 33
 333417
@@ -275,17 +286,6 @@ A
 
 13
 85
-E
-108>
-10810963 *
-1Q Q(28:5B
-
-
-11
-12
-
-13
-110
 
 31
 313217
@@ -408,9 +408,6 @@ A
 
 13
 14
-
-111
-11111217
 
 15
 151617
@@ -443,7 +440,10 @@ A
 14
 
 37
-373817r§
+373817
+
+111
+11111217r§
 
 81518*
 1 (

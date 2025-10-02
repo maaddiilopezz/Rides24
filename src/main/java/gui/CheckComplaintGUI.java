@@ -1,17 +1,11 @@
 package gui;
 
-import businessLogic.BLFacade;
-import configuration.UtilDate;
-
-import com.toedter.calendar.JCalendar;
+import businesslogic.BLFacade;
 import domain.*;
 import javax.swing.*;
-import javax.swing.event.ListSelectionListener;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.beans.*;
-import java.text.DateFormat;
 import java.util.*;
 import java.util.List;
 
@@ -47,7 +41,7 @@ public class CheckComplaintGUI extends JFrame {
                 return false;
             }
 		};
-		if(comList.size()==0) {
+		if(comList.isEmpty()) {
 			jLabelError.setText(ResourceBundle.getBundle("Etiquetas").getString("CheckComplaintGUI.NoComplaint"));
 		}else {
 			for (Complaint com: comList){

@@ -1,15 +1,15 @@
 
-%domain.Ride#getTo()Ljava/lang/String;P
-F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.javar r("1*”
-1s	 s(_
-]
-s	 s(
-%0java.lang.String"__id*3
-
-__unknown_file (*
-domain.Ride"
-to"$
-s s(
-
-%0java.lang.StringB
-domain.RideH
+-businesslogic.BusinessLogicServer$1#<init>()V
+__unknown_file ("startingBlock*Ç
+startingBlockf
+\/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businesslogic/BusinessLogicServer.java5( 5()Î
+Ë
+f
+\/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businesslogic/BusinessLogicServer.java5( 5()
+%0"&java.awt.event.WindowAdapter#<init>()V*3
+ ('%
+#businesslogic.BusinessLogicServer$1"}
+f
+\/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businesslogic/BusinessLogicServer.java5( 5()
+implicit returnB'%
+#businesslogic.BusinessLogicServer$1

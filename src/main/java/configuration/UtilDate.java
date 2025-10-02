@@ -6,6 +6,7 @@ import java.util.TimeZone;
 
 public class UtilDate {
 
+	private UtilDate() {}
 	
 	public static Date trim(Date date) {
 

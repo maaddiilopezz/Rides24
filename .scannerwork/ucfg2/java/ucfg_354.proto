@@ -1,43 +1,15 @@
 
-`businessLogic.BLFacadeImplementation#getTravelerTransactions(Ljava/lang/String;)Ljava/util/List;k
-_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaÔ Ô(1"startingBlock*…
-startingBlock
-Ô1 Ô(?…
-‚
-
-Ó Ó(
-%0"
-__annotate*)
+(domain.Admin#getName()Ljava/lang/String;Q
+G/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Admin.java2 2("1*—
+13	 3(b
+`
+3	 3(
+%0java.lang.String"__id*6
 
-__unknown_file (
-	WebMethod*7
-
-__unknown_file (
-
-emailjava.lang.String[
-Y
-
-Ô9 Ô(>
-emailjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%0*
-1*ƒ
-1
-Õ Õ(M
-K
-
-Ö Ö(?
-ljava.util.List"__id*"
-
-__unknown_file (
-"""#
-
-Ø Ø(
-
-ljava.util.List:'
-
-Ô2 Ô(>
-emailjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+__unknown_file (*
+domain.Admin"
+name"$
+3 3(
+
+%0java.lang.StringB
+domain.AdminH

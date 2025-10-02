@@ -1,43 +1,15 @@
 
-[businessLogic.BLFacadeImplementation#getDriverComplaint(Ljava/lang/String;)Ljava/util/List;k
-_/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaâ â(-"startingBlock*Ö
-startingBlock
-â- â(;Ö
-Ç
-
-à à(
-%0"
-__annotate*)
+'domain.Ride#getFrom()Ljava/lang/String;P
+F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.java] ]("1*ñ
+1^	 ^(a
+_
+^	 ^(
+%0java.lang.String"__id*5
 
-__unknown_file (
-	WebMethod*7
-
-__unknown_file (
-
-emailjava.lang.String[
-Y
-
-â5 â(:
-emailjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%0*
-1*É
-1
-ä ä(M
-K
-
-ã ã(=
-ljava.util.List"__id*"
-
-__unknown_file (
-"""#
-
-ç ç(
-
-ljava.util.List:'
-
-â. â(:
-emailjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+__unknown_file (*
+domain.Ride"
+from"$
+^ ^(
+
+%0java.lang.StringB
+domain.RideH

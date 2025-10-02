@@ -1,6 +1,7 @@
 package configuration;
 
 import java.io.File;
+import java.io.Serializable;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -13,7 +14,7 @@ import org.w3c.dom.NodeList;
 /**
  * It provides the configuration data from the "resources/config.xml" XML file
  */
-public class ConfigXML {
+public class ConfigXML implements Serializable{
 	
 	private String configFile = "src/main/resources/config.xml";
 		
@@ -108,7 +109,7 @@ public class ConfigXML {
 			  
 				//Two possible values: true (if the database must be initialized ) or false (in other case)
 			  String dbOpenValue= ((Element)config.getElementsByTagName("database").item(0)).getAttribute("initialize");
-			  isDatabaseInitialized= dbOpenValue.equals("true");;
+			  isDatabaseInitialized= dbOpenValue.equals("true");
 
 	
 			  databaseNode = getTagValue("databaseNode", config);
@@ -134,7 +135,7 @@ public class ConfigXML {
 	private static String getTagValue(String sTag, Element eElement)
 	 {
 		  NodeList nlList= eElement.getElementsByTagName(sTag).item(0).getChildNodes();
-		  Node nValue = (Node) nlList.item(0);
+		  Node nValue = nlList.item(0);
 
 		  return nValue.getNodeValue();
 

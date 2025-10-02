@@ -1,6 +1,7 @@
 package domain;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Vector;
@@ -35,7 +36,7 @@ public class Driver implements Serializable{
 	private List<Reservation> reservations = new Vector <Reservation>();
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private List<Car> cars = new Vector <Car>();
+	private List<Car> cars = new ArrayList<Car>();
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
 	private List<Transaction> transactions = new Vector <Transaction>();

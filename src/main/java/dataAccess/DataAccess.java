@@ -28,7 +28,6 @@ public class DataAccess  {
 	private  EntityManager  db;
 	private  EntityManagerFactory emf;
 
-
 	ConfigXML c=ConfigXML.getInstance();
 
      public DataAccess()  {

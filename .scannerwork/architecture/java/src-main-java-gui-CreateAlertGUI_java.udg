@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759332322879*java2.B‹
+1.0maaddiilopezz_rides24JavaFrontend"1759396983372*java2.BÌ
 *
 %src/main/java/gui/CreateAlertGUI.java2
 	
@@ -46,8 +46,8 @@
 %gui.CreateAlertGUI.appFacadeInterface30
 
 appFacadeInterface31
-
-BLFacade33
+
+businesslogic.BLFacade33
 
 unknown34
 
@@ -107,18 +107,18 @@ $
 
 
 references72
-&
- Recovered#typeBindingLBLFacade;074
 
-gui.CreateAlertGUI$176
+gui.CreateAlertGUI$174
 I
-Cgui.CreateAlertGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V78
+Cgui.CreateAlertGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V76
 
-actionPerformed79
+actionPerformed77
 
-gui.CreateAlertGUI$281
+gui.CreateAlertGUI$279
 I
-Cgui.CreateAlertGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)V83
+Cgui.CreateAlertGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)V81
+Y
+Sbusinesslogic.BLFacade#createAlert(LTraveler;Ljava/lang/String;Ljava/lang/String;)V83
 ,
 &exceptions.AlertAlreadyExistsException85
 
@@ -253,9 +253,6 @@ A
 
 13
 61
-
-32
-323334
 A
 50;
 505117 *
@@ -269,10 +266,10 @@ A
 13
 52
 B
-77<
-777867 *
+75<
+757667 *
 1C C(
-275:5B
+273:5B
 
 
 11
@@ -280,7 +277,7 @@ B
 
 
 13
-79
+77
 A
 15;
 151617 *
@@ -305,6 +302,9 @@ A
 
 13
 49
+
+32
+323334
 6
 860
 868710 *
@@ -317,18 +317,18 @@ A
 68
 686934
 6
-800
-808110 *
+780
+787910 *
 1`8 `(9265:5B
 
 
 11
 39
 B
-82<
-828367 *
+80<
+808167 *
 1a a(
-280:5B
+278:5B
 
 
 11
@@ -336,7 +336,7 @@ B
 
 
 13
-79
+77
 A
 53;
 535417 *
@@ -350,8 +350,8 @@ A
 13
 55
 6
-750
-757610 *
+730
+737410 *
 1B6 B(7265:5B
 
 
@@ -393,6 +393,9 @@ A
 
 13
 46
+
+82
+828334
 A
 91;
 919267 *
@@ -405,9 +408,6 @@ A
 
 13
 93
-
-73
-737434
 A
 20;
 202117 *
@@ -419,7 +419,7 @@ A
 
 
 13
-22r 
+22rÖ
 
 293235*
 1" "(
@@ -472,10 +472,10 @@ A
 653772*
 19 9(
 
-657335*
+653235*
 1; ;(
 
-657336*
+653236*
 1; ;(
 
 652072*
@@ -616,40 +616,46 @@ A
 654472*
 1` `(
 
-825372*
+805372*
 1c c(&
 
-825372*
+805372*
 1c c(&
 
-825972*
+805972*
 1d d(%
 
-825972*
+805972*
 1d d(%
 
-825672*
+805672*
 1f f(
 
-825672*
+805672*
 1f f(
 
-825672*
+805672*
 1h h(
 
-825672*
+805672*
 1h h(
 
-828435*
+803272*
+1j j(
+
+808271*
+1j j(
+
+808435*
 1m( m()
 
-828436*
+808436*
 1m m('
 
-825672*
+805672*
 1n n(
 
-825672*
+805672*
 1n n(
 
 652072*

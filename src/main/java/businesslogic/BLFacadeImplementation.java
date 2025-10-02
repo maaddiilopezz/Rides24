@@ -1,7 +1,7 @@
-package businessLogic;
+package businesslogic;
 import java.util.Date;
 import java.util.List;
-import java.util.ResourceBundle;
+import java.util.logging.Logger;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -15,13 +15,13 @@ import exceptions.*;
  * It implements the business logic as a web service.
  */
 @WebService(endpointInterface = "businessLogic.BLFacade")
-public class BLFacadeImplementation  implements BLFacade {
+public class BLFacadeImplementation implements BLFacade {
 	DataAccess dbManager;
 
-	public BLFacadeImplementation()  {		
-		System.out.println("Creating BLFacadeImplementation instance");
+	public BLFacadeImplementation()  {	
+		Logger logger = Logger.getLogger(getClass().getName());
+		logger.info("Creating BLFacadeImplementation instance");
 		dbManager=new DataAccess();
-		//dbManager.close();
 	}
 	
     public BLFacadeImplementation(DataAccess da)  {
@@ -67,7 +67,7 @@ public class BLFacadeImplementation  implements BLFacade {
 		Ride ride=dbManager.createRide(from, to, date, price, driverEmail, carPlaces);		
 		dbManager.close();
 		return ride;
-   };
+   }
 	
    /**
     * {@inheritDoc}

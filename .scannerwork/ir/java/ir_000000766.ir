@@ -1,4 +1,4 @@
-&this7 7("domain.Transaction"H6
-4
-8	 8("#get-field# id:Bjava.lang.Integer
-8 8(*M/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Transaction.java
++this6 6("configuration.ConfigXML"D2
+0
+7	 7("#get-field# databasePort:Bint
+7 7(*R/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/configuration/ConfigXML.java

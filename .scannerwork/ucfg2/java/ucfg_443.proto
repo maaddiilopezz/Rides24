@@ -1,20 +1,15 @@
 
- domain.Ride#getCar()Ldomain/Car;R
-F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.java¿ ¿("1*è
-1
-¡	 ¡(\
-Z
-
-¡	 ¡(
-%0
-domain.Car"__id*4
++domain.Complaint#getId()Ljava/lang/Integer;U
+K/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Complaint.java! !("1*õ
+1"	 "(e
+c
+"	 "(
+%0java.lang.Integer"__id*8
 
-__unknown_file (*
-domain.Ride"
-car" 
-
-¡ ¡(
-
-%0
-domain.CarB
-domain.RideH
+__unknown_file (*
+domain.Complaint"
+id"%
+" "(
+
+%0java.lang.IntegerB
+domain.ComplaintH
