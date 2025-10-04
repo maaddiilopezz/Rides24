@@ -223,4 +223,8 @@ public class Traveler implements Serializable{
 		}
 		return -1;
 	}
+	
+	public boolean addReservation(Reservation res) {
+		return reservations.add(res);
+	}
 }

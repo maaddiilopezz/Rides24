@@ -146,6 +146,10 @@ public class Driver implements Serializable{
 		this.complaints = complaints;
 	}
 
+    public String getUsername() {
+        return this.email;
+    }
+
 	/**
 	 * This method creates a bet with a question, minimum bet ammount and percentual profit
 	 * 

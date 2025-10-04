@@ -1,0 +1,418 @@
+
+1.0maaddiilopezz_rides24JavaFrontend"1759396983823*java2.B•
+9
+4src/main/java/businesslogic/BusinessLogicServer.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+businesslogic7
+&
+!businesslogic.BusinessLogicServer9
+
+class10
+
+access11
+
+public12
+
+simple-name13
+
+BusinessLogicServer14
+8
+2businesslogic.BusinessLogicServer.serialVersionUID16
+
+field17
+
+private18
+
+serialVersionUID19
+4
+.businesslogic.BusinessLogicServer.contentPanel21
+
+contentPanel22
+0
+*businesslogic.BusinessLogicServer.textArea24
+
+	protected25
+
+textArea26
+.
+(businesslogic.BusinessLogicServer.server28
+
+server29
+
+BLFacade31
+
+unknown32
+
+is type33
+
+
+uses34
+/
+)businesslogic.BusinessLogicServer.service36
+
+service37
+B
+<businesslogic.BusinessLogicServer#main([Ljava/lang/String;)V39
+
+method40
+
+
+main41
+
+calls42
+1
++businesslogic.BusinessLogicServer#<init>()V44
+)
+#businesslogic.BusinessLogicServer$146
+U
+Obusinesslogic.BusinessLogicServer$1#windowClosed(Ljava/awt/event/WindowEvent;)V48
+
+windowClosed49
+
+
+references50
+
+configuration.ConfigXML52
+
+returns53
+D
+>configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;55
+5
+/configuration.ConfigXML#isBusinessLogicLocal()Z57
+0
+*configuration.ConfigXML#isDatabaseLocal()Z59
+A
+;configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;61
+0
+*configuration.ConfigXML#getDatabasePort()I63
+F
+@configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;65
+F
+@configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;67
+F
+@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;69J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576j÷
+A
+23;
+232417 *
+1% %(28:5B
+
+
+11
+25
+
+
+13
+26
+
+64
+646532
+;
+86
+8910 *
+1 (!:5B
+
+
+11
+12
+
+
+13
+14
+
+60
+606132
+
+62
+626332
+A
+20;
+202117 *
+1$ $(	28:5B
+
+
+11
+18
+
+
+13
+22
+A
+27;
+272817 *
+1& &(
+28:5B
+
+
+11
+25
+
+
+13
+29
+B
+47<
+474840 *
+16 6(245:5B
+
+
+11
+12
+
+
+13
+49
+
+58
+585932
+A
+35;
+353617 *
+1' '(28:5B
+
+
+11
+25
+
+
+13
+37
+A
+43;
+434440 *
+14 4(28:5B
+
+
+11
+12
+
+
+13
+14
+6
+450
+454610 *
+15) 5(*243:5B
+
+
+11
+25
+
+66
+666732
+
+56
+565732
+A
+15;
+151617 *
+1# #(	28:5B
+
+
+11
+18
+
+
+13
+19
+A
+38;
+383940 *
+1) )(28:5B
+
+
+11
+12
+
+
+13
+41
+
+68
+686932
+
+54
+545532
+
+51
+515232
+
+30
+303132rò
+
+273033*
+1& &(
+
+
+273034*
+1& &(
+
+
+273034*
+1& &(
+
+38833*
+1+ +(
+
+38834*
+1+ +(
+
+38842*
+1+% +(8
+
+43842*
+14	 4(
+
+432050*
+1> >(
+
+432050*
+1> >(
+
+432050*
+1? ?($
+
+432050*
+1@ @(
+
+432050*
+1@ @(
+
+432350*
+1A A(
+
+432050*
+1B B(
+
+432050*
+1B B(
+
+432350*
+1B B(
+
+432350*
+1J J(
+
+432350*
+1J J(
+
+435133*
+1Y Y(
+
+435134*
+1Y Y(
+
+435153*
+1Y Y(
+
+435150*
+1Y Y(
+
+435442*
+1Y Y($
+
+435134*
+1Y Y(
+
+435150*
+1[ [(
+
+435642*
+1[	 [(
+
+432350*
+1\ \(
+
+432350*
+1\ \(
+
+435150*
+1c
+ c(
+
+435842*
+1c c(
+
+435150*
+1dp d(q
+
+436042*
+1dr d(Å
+
+435150*
+1dé d(è
+
+436242*
+1dê d(ü
+
+433550*
+1g g(
+
+435150*
+1g g(
+
+436442*
+1g g(.
+
+435150*
+1g7 g(8
+
+436642*
+1g9 g(M
+
+435150*
+1gW g(X
+
+436842*
+1gY g(m
+
+433550*
+1i i(
+
+432350*
+1o o(
+
+432350*
+1o o(
+
+432350*
+1p p(
+
+432350*
+1p p(
+
+432350*
+1t t(
+
+432350*
+1t t(
+
+433550*
+1t0 t(7
+
+432350*
+1u u(
+
+432350*
+1u u(
+
+432350*
+1x x(
+
+432350*
+1x x(

@@ -25,7 +25,7 @@ import exceptions.*;
  * It implements the data access to the objectDb database
  */
 public class DataAccess  {
-	private  EntityManager  db;
+	public EntityManager  db;
 	private  EntityManagerFactory emf;
 
 	ConfigXML c=ConfigXML.getInstance();
@@ -757,4 +757,11 @@ public class DataAccess  {
 		}
 		db.getTransaction().commit();
 	}
+	
+    /**
+     * Setter para inyectar un EntityManager mockeado en tests
+     */
+    public void setEntityManager(Object db) {
+        this.db = (EntityManager) db;
+    }
 }
