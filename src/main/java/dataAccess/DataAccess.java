@@ -308,7 +308,7 @@ public class DataAccess  {
 			db.getTransaction().begin();
 			Ride r = db.find(Ride.class, rideNumber);
 			if(r.getnPlaces()<hm) {
-				throw new NotEnoughAvailableSeatsException(ResourceBundle.getBundle("Etiquetas").getString("MakeReservationGUI.jButtonError2"));
+				throw new NotEnoughAvailableSeatsException("No hay asientos suficientes.");
 			}
 
 			Traveler t = db.find(Traveler.class, travelerEmail);
@@ -316,7 +316,7 @@ public class DataAccess  {
 
 			if (r.doesReservationExist(hm, t)) {
 				db.getTransaction().commit();
-				throw new ReservationAlreadyExistException(ResourceBundle.getBundle("Etiquetas").getString("DataAccess.ReservationAlreadyExist"));
+				throw new ReservationAlreadyExistException("La reserva ya existe");
 			}
 			Reservation res = t.makeReservation(r, hm);
 
