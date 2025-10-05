@@ -1,4 +1,4 @@
-import testOperations.TestDataAccess;
+import dataAccess.DataAccess;
 import domain.Ride;
 import domain.Traveler;
 import domain.Reservation;
@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 
 public class CreateReservationDBWhiteTest {
 
-    static TestDataAccess testDA = new TestDataAccess();
+    static DataAccess testDA = new DataAccess();
 
     private Traveler t1;
     private Ride r1;
@@ -26,24 +26,19 @@ public class CreateReservationDBWhiteTest {
     public void init() {
         testDA.open();
 
-        try
-        {
+        try {
             testDA.removeDriver("d1");
             testDA.removeTraveler(String.valueOf(t1));
             testDA.removeRides();
             testDA.removeReservations();
-        }
-        catch(Exception e)
-        {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
-        if (testDA.db.getTransaction().isActive())
-        {
+        if (testDA.db.getTransaction().isActive()) {
             testDA.db.getTransaction().commit();
         }
 
-        // Driver, Ride y Traveler base
         Driver d1 = testDA.createTestDriver("d1");
         r1 = testDA.createTestRide(d1.getUsername(), "A", "B", Date.from(Instant.now()), 2);
         t1 = testDA.createTestTraveler("t1@gmail.com");
@@ -56,7 +51,6 @@ public class CreateReservationDBWhiteTest {
     @After
     public void tearDown() {
         testDA.close();
-
         testDA.open();
         testDA.removeDriver("d1");
         testDA.removeTraveler(String.valueOf(t1));
@@ -65,7 +59,6 @@ public class CreateReservationDBWhiteTest {
         testDA.close();
     }
 
-    // Caso 1: TRY1(Catch) -> Ride no existe en la BD -> retorna null y la reserva no se guarda en la BD
     @Test
     public void test1_rideNotInDB() {
         try {
@@ -77,7 +70,6 @@ public class CreateReservationDBWhiteTest {
         }
     }
 
-    // Caso 2: TRY1(No Catch) – IF4(T) -> No hay suficientes asientos
     @Test
     public void test2_notEnoughSeats() {
         Reservation res = null;
@@ -92,10 +84,8 @@ public class CreateReservationDBWhiteTest {
         }
     }
 
-    // Caso 3: TRY1(No Catch) – IF4(F)-IF11(T) -> Reserva ya existe
     @Test
     public void test3_reservationAlreadyExists() {
-        // Reserva previa para el caso 3 (reserva ya existente)
         Reservation res1 = t1.makeReservation(r1, 1);
         testDA.db.getTransaction().begin();
         t1.addReservation(res1);
@@ -108,13 +98,11 @@ public class CreateReservationDBWhiteTest {
             Reservation res = testDA.createReservation(1, r1.getRideNumber(), "t1@gmail.com");
             assertNull(res);
         } catch (ReservationAlreadyExistException e) {
-            // También es válido si lanza la excepción
         } catch (Exception e) {
             fail("Lanzó excepción incorrecta: " + e);
         }
     }
 
-    // Caso 4: TRY1(No Catch) – IF4(F)-IF11(F) -> Reserva válida
     @Test
     public void test4_successfulReservation() throws Exception {
         Reservation res = testDA.createReservation(1, r1.getRideNumber(), "t1@gmail.com");

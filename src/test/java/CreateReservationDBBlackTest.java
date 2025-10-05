@@ -1,4 +1,4 @@
-import testOperations.TestDataAccess;
+import dataAccess.DataAccess;
 import domain.Ride;
 import domain.Traveler;
 import domain.Reservation;
@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 
 public class CreateReservationDBBlackTest {
 
-    static TestDataAccess testDA = new TestDataAccess();
+    static DataAccess testDA = new DataAccess();
 
     private Traveler t1;
     private Ride r1;
@@ -39,7 +39,6 @@ public class CreateReservationDBBlackTest {
         if (testDA.db.getTransaction().isActive())
             testDA.db.getTransaction().commit();
 
-        // Driver, Ride y Traveler base
         d1 = testDA.createTestDriver("d1");
         r1 = testDA.createTestRide(d1.getUsername(), "A", "B", Date.from(Instant.now()), 2);
         t1 = testDA.createTestTraveler("t1@gmail.com");
@@ -60,10 +59,6 @@ public class CreateReservationDBBlackTest {
         testDA.removeReservations();
         testDA.close();
     }
-
-    // --------------------------------------------------------
-    // CASOS DE PRUEBA DE CAJA NEGRA (1 al 7)
-    // --------------------------------------------------------
 
     @Test
     public void test1_validReservation() throws Exception {
@@ -105,7 +100,6 @@ public class CreateReservationDBBlackTest {
             testDA.createReservation(3, r1.getRideNumber(), "t1@gmail.com");
             fail("Debió lanzar NotEnoughAvailableSeatsException");
         } catch (NotEnoughAvailableSeatsException e) {
-            // esperado
         } catch (Exception e) {
             fail("Lanzó excepción incorrecta: " + e);
         }
@@ -136,17 +130,11 @@ public class CreateReservationDBBlackTest {
             Reservation res = testDA.createReservation(1, r1.getRideNumber(), "t1@gmail.com");
             assertNull("Debe devolver null o lanzar excepción si la reserva ya existe", res);
         } catch (ReservationAlreadyExistException e) {
-            // también válido
         } catch (Exception e) {
             fail("Ha lanzado una excepción incorrecta: " + e);
         }
     }
 
-    // --------------------------------------------------------
-    // VALORES LÍMITE
-    // --------------------------------------------------------
-
-    // VL1: hm = 0 → null
     @Test
     public void testVL_hm0() {
         try {
@@ -157,7 +145,6 @@ public class CreateReservationDBBlackTest {
         }
     }
 
-    // VL2: hm = 2 → reserva válida
     @Test
     public void testVL_hm2() {
         try {
@@ -170,7 +157,6 @@ public class CreateReservationDBBlackTest {
         }
     }
 
-    // VL3: hm = 3 → lanza excepción por falta de plazas
     @Test(expected = NotEnoughAvailableSeatsException.class)
     public void testVL_hm3() throws Exception {
         testDA.createReservation(3, r1.getRideNumber(), "t1@gmail.com");
