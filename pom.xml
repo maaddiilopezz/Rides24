@@ -53,6 +53,7 @@
 		<sonar.projectKey>maaddiilopezz_rides24</sonar.projectKey>
 		<sonar.login>f38992ba36d2db458e0dc3a3da06c164dca422b4</sonar.login>
 	</properties>
+	
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependencies>
