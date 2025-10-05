@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759396983465*java2.Bø
+1.0maaddiilopezz_rides24JavaFrontend"1759622110951*java2.B‰
 "
 src/main/java/domain/Car.java2
 	
@@ -82,8 +82,8 @@ $
 	OneToMany59
 '
 !Recovered#typeBindingLOneToMany;061
-
-domain.Ride63
+"
+Recovered#typeBindingLRide;063
 6
 0domain.Car#<init>(Ljava/lang/String;ILDriver;Z)V65
 
@@ -295,6 +295,9 @@ A
 33
 333417
 
+62
+626317
+
 31
 313217
 A
@@ -401,9 +404,6 @@ A
 
 13
 41
-
-62
-626317
 A
 93;
 939466 *

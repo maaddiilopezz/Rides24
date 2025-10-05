@@ -1,17 +1,7 @@
 
-%domain.Car#getRides()Ljava/util/List;O
-E/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Car.java= =("1*’
-1>	 >(_
-]
->	 >(
-%0java.util.List"__id*5
-
-__unknown_file (*
-
-domain.Car"
-rides""
-> >(
-
-%0java.util.ListB
-
-domain.CarH
+domain.Traveler#getMoney()FT
+J/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Traveler.java] ]("1*!
+1^	 ^("
+^ ^(
+""B
+domain.TravelerHX

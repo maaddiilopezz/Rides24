@@ -1,17 +1,177 @@
 
-'domain.Car#toString()Ljava/lang/String;O
-E/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Car.javaQ Q("1*ñ
-1R	 R(a
-_
-R	 R(
-%0java.lang.String"__id*5
++domain.Traveler#equals(Ljava/lang/Object;)ZV
+J/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Traveler.javaê ê("startingBlock*%
+2
+ô
+ ô("
+
+ô ô(
+""*Î
+3
+ó ó(!e
+c
+
+ó ó("
+otherdomain.Traveler"__id*5
 
-__unknown_file (*
+__unknown_file (
+
+objjava.lang.Objecth
+f
 
-domain.Car"
-plate"$
-R R(
+ò ò(
+%5java.lang.String"__id*:
+
+__unknown_file (*
+domain.Traveler"
+emailo
+m
+
+ò ò(
+%6java.lang.String"__id*A
+
+__unknown_file (%*#
+
+otherdomain.Traveler"
+emailè
+å
+
+ò ò(
+%7boolean"	__compare*
+
+ò ò(
+!=*&
+
+ò ò(
 
-%0java.lang.StringB
+%5java.lang.String*&
 
-domain.CarH
+ò ò(
+
+%6java.lang.String*
+2
+1*ä
+startingBlock
+ê ê("å
+â
+
+è è(
+
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+objjava.lang.ObjectY
+W
+
+ê ê(!
+objjava.lang.Object"__annotation*"
+
+__unknown_file (
+
+%8*
+9*%
+4
+ñ
+ ñ("
+
+ñ ñ(
+""*’
+5
+ï ï(ëé
+
+ï ï(
+%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*/
+
+__unknown_file (
+domain.Traveler2
+getClass()óî
+
+ï ï("
+%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
+
+__unknown_file (
+
+objjava.lang.Object2
+getClass()ç
+ä
+
+ï ï("
+%4boolean"	__compare*
+
+ï ï(
+!=*%
+
+ï ï(
+
+%2java.lang.Class*%
+
+ï ï("
+
+%3java.lang.Class*
+3
+4*%
+6
+î
+ î("
+
+î î(
+""*ñ
+7
+ì ì(	}
+{
+
+ì ì(
+%1boolean"	__compare*
+
+ì
+ ì(
+==*'
+
+ì ì(	
+
+objjava.lang.Object*
+
+ì ì(
+""*
+5
+6*%
+8
+í
+ í("
+
+í í(
+""*•
+9
+ë ë(
+ã
+à
+
+ë ë(
+%0boolean"	__compare*
+
+ë ë(
+==*!
+
+ë ë(
+
+domain.Traveler*'
+
+ë ë(
+
+objjava.lang.Object*
+7
+8*%
+1
+ö	 ö("
+
+ö ö(
+"":%
+
+ê ê(!
+objjava.lang.ObjectB
+domain.TravelerHX

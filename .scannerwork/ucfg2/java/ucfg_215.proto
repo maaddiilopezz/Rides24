@@ -1,33 +1,15 @@
 
-3dataAccess.ObjectdbManagerServer#%field_initializer
-__unknown_file ("1*å
-1 (òï
-e
-[/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/ObjectdbManagerServer.java) (/
-%0javax.swing.JPanel"javax.swing.JPanel∂
-≥
-e
-[/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/ObjectdbManagerServer.java% (1
-%1"javax.swing.JPanel#<init>()V*&
- (
-
-%0javax.swing.JPanelŒ
-À
-e
-[/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/ObjectdbManagerServer.java (24"
- dataAccess.ObjectdbManagerServer"
-contentPanel"__id*&
- (
-
-%0javax.swing.JPanel⁄
-◊
-e
-[/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/ObjectdbManagerServer.java   (E4"
- dataAccess.ObjectdbManagerServer"
-objectDbpath"__id*2
- (&$
-"src\\main\\resources\\objectdb.jar"{
-d
-[/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/dataAccess/ObjectdbManagerServer.java Å(
-implicit returnB$"
- dataAccess.ObjectdbManagerServer
+gui.MainGUI$7#<init>()V
+__unknown_file ("startingBlock*ı
+startingBlockR
+F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/gui/MainGUI.javaà( à()§
+°
+R
+F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/gui/MainGUI.javaà( à()
+%0"&java.awt.event.WindowAdapter#<init>()V*
+ (
+gui.MainGUI$7"i
+R
+F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/gui/MainGUI.javaà( à()
+implicit returnB
+gui.MainGUI$7

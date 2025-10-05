@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759396983823*java2.B¥
+1.0maaddiilopezz_rides24JavaFrontend"1759622109905*java2.BÑ
 9
 4src/main/java/businesslogic/BusinessLogicServer.java2
 	
@@ -96,7 +96,9 @@ F
 F
 @configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;67
 F
-@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;69J
+@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;69
+*
+$businesslogic.BLFacadeImplementation71J
 
 1
 12
@@ -106,7 +108,10 @@ F
 4Z
 
 5	
-576jÖ
+576jê
+
+70
+707132
 A
 23;
 232417 *
@@ -253,7 +258,7 @@ A
 515232
 
 30
-303132r˜
+303132r³
 
 273033*
 1& &(
@@ -383,6 +388,9 @@ A
 
 433550*
 1i i(
+
+437042*
+1i# i(9
 
 432350*
 1o o(

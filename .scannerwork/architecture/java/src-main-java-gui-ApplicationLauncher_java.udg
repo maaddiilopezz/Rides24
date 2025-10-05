@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759396983090*java2.BÊ
+1.0maaddiilopezz_rides24JavaFrontend"1759622110765*java2.B›
 /
 *src/main/java/gui/ApplicationLauncher.java2
 	
@@ -40,16 +40,12 @@
 uses23
 %
 Recovered#typeBindingLMainGUI;025
-
-businesslogic.BLFacade27
+&
+ Recovered#typeBindingLBLFacade;027
 (
 "Recovered#typeBindingLDataAccess;029
-*
-$businesslogic.BLFacadeImplementation31
-
-calls32
 %
-Recovered#typeBindingLService;034J
+Recovered#typeBindingLService;031J
 
 1
 12
@@ -59,19 +55,16 @@ $businesslogic.BLFacadeImplementation31
 4Z
 
 5	
-576jø
-
-26
-262721
-
-30
-303121
+576jä
 
 19
 192021
 
-33
-333421
+30
+303121
+
+26
+262721
 
 24
 242521
@@ -101,7 +94,7 @@ A
 
 
 13
-18rÄ
+18r©
 
 151922*
 1 (
@@ -128,13 +121,10 @@ A
 152823*
 1* *(
 
-153032*
-1+ +(2
-
-153322*
+153022*
 1; ;(
 
-153323*
+153023*
 1; ;(
 
 152623*

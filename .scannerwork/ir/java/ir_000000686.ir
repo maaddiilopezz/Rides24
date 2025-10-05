@@ -1,20 +1,0 @@
-
-";"java.lang.String!this
-Ô Ô("domain.Ride"¿@
->
-
-Õ	 Õ("#get-field# rideNumber:Bjava.lang.Integer9
-7
-
-Õ Õ( "#get-field# from:Bjava.lang.String7
-5
-
-Õ% Õ('"#get-field# to:Bjava.lang.String7
-5
-
-Õ, Õ(0"#get-field# date:Bjava.util.Date<
-:
-
-Õ	 Õ(0"	#binop +#2+:Bjava.lang.String
-
-Õ Õ(1*F/Users/maddilopez/Downloads/2.3/Rides24/src/main/java/domain/Ride.java

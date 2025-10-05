@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759396983520*java2.B³
+1.0maaddiilopezz_rides24JavaFrontend"1759622111003*java2.B½
 .
 )src/main/java/gui/CheckOwnRatingsGUI.java2
 	
@@ -70,8 +70,8 @@ M
 Ggui.CheckOwnRatingsGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V45
 
 actionPerformed46
-
-businesslogic.BLFacade48
+&
+ Recovered#typeBindingLBLFacade;048
 
 unknown49
 
@@ -86,9 +86,6 @@ Ggui.CheckOwnRatingsGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V45
 
 5	
 576j¢
-
-47
-474849
 ;
 86
 8910 *
@@ -161,6 +158,9 @@ A
 
 13
 23
+
+47
+474849
 6
 420
 424310 *

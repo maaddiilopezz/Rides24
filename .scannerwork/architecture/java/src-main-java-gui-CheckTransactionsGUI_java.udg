@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759396982668*java2.Bı
+1.0maaddiilopezz_rides24JavaFrontend"1759622108656*java2.BÎ
 0
 +src/main/java/gui/CheckTransactionsGUI.java2
 	
@@ -94,8 +94,8 @@ O
 Igui.CheckTransactionsGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V63
 
 actionPerformed64
-&
- Recovered#typeBindingLBLFacade;066
+
+businesslogic.BLFacade66
 
 is type67
  
@@ -114,6 +114,9 @@ Igui.CheckTransactionsGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V63
 
 5	
 576jÅ	
+
+65
+656650
 6
 680
 686910 *
@@ -275,9 +278,6 @@ A
 
 13
 32
-
-65
-656650
 A
 27;
 272817 *

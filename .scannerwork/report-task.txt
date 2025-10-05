@@ -1,7 +1,7 @@
 organization=maaddiilopezz
 projectKey=maaddiilopezz_rides24
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.68079
+serverVersion=8.0.0.68276
 dashboardUrl=https://sonarcloud.io/dashboard?id=maaddiilopezz_rides24
-ceTaskId=AZmkO4LoL1WReGMJ3wVm
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZmkO4LoL1WReGMJ3wVm
+ceTaskId=AZmxpraYh5saJv1MYB_G
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZmxpraYh5saJv1MYB_G

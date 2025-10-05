@@ -1,5 +1,5 @@
 
-1.0maaddiilopezz_rides24JavaFrontend"1759396983477*java2.B˘,
+1.0maaddiilopezz_rides24JavaFrontend"1759622109573*java2.B≥-
 .
 )src/main/java/businesslogic/BLFacade.java2
 	
@@ -48,220 +48,222 @@ U
 Obusinesslogic.BLFacade#getDestinationCities(Ljava/lang/String;)Ljava/util/List;31
 
 getDestinationCities32
-ê
-âbusinesslogic.BLFacade#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;FLjava/lang/String;Ljava/lang/String;)Ldomain/Ride;34
+â
+Çbusinesslogic.BLFacade#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;FLjava/lang/String;Ljava/lang/String;)LRide;34
 
 
 createRide35
-
-domain.Ride37
+
+
+Ride37
 
 returns38
-'
-!RideMustBeLaterThanTodayException40
+2
+,exceptions.RideMustBeLaterThanTodayException40
 *
 $exceptions.RideAlreadyExistException42
 k
 ebusinesslogic.BLFacade#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;44
 
 getRides45
+"
+Recovered#typeBindingLRide;047
 }
-wbusinesslogic.BLFacade#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;47
+wbusinesslogic.BLFacade#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;49
  
-getThisMonthDatesWithRides48
+getThisMonthDatesWithRides50
 ,
-&businesslogic.BLFacade#initializeBD()V50
+&businesslogic.BLFacade#initializeBD()V52
 
-initializeBD51
-i
-cbusinesslogic.BLFacade#createDriver(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LDriver;53
+initializeBD53
+p
+jbusinesslogic.BLFacade#createDriver(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;55
 
-createDriver54
-
-Driver56
-
-UserAlreadyExistException58
+createDriver56
+
+domain.Driver58
+*
+$exceptions.UserAlreadyExistException60
 m
-gbusinesslogic.BLFacade#createTraveler(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LTraveler;60
+gbusinesslogic.BLFacade#createTraveler(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LTraveler;62
 
-createTraveler61
+createTraveler63
 
-Traveler63
+Traveler65
 c
-]businesslogic.BLFacade#createReservation(ILjava/lang/Integer;Ljava/lang/String;)LReservation;65
+]businesslogic.BLFacade#createReservation(ILjava/lang/Integer;Ljava/lang/String;)LReservation;67
 
-createReservation66
+createReservation68
 
-Reservation68
-&
- ReservationAlreadyExistException70
+Reservation70
 1
-+exceptions.NotEnoughAvailableSeatsException72
-[
-Ubusinesslogic.BLFacade#getDriverByEmail(Ljava/lang/String;Ljava/lang/String;)LDriver;74
++exceptions.ReservationAlreadyExistException72
+1
++exceptions.NotEnoughAvailableSeatsException74
+b
+\businesslogic.BLFacade#getDriverByEmail(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;76
 
-getDriverByEmail75
-*
-$exceptions.UserDoesNotExistException77
-.
-(exceptions.PasswordDoesNotMatchException79
+getDriverByEmail77
+
+UserDoesNotExistException79
+#
+PasswordDoesNotMatchException81
 _
-Ybusinesslogic.BLFacade#getTravelerByEmail(Ljava/lang/String;Ljava/lang/String;)LTraveler;81
+Ybusinesslogic.BLFacade#getTravelerByEmail(Ljava/lang/String;Ljava/lang/String;)LTraveler;83
 
-getTravelerByEmail82
+getTravelerByEmail84
 0
-*businesslogic.BLFacade#pay(LReservation;)V84
+*businesslogic.BLFacade#pay(LReservation;)V86
 	
-pay85
+pay87
 )
-#Recovered#typeBindingLReservation;087
+#Recovered#typeBindingLReservation;089
 
-	has param88
+	has param90
 
-is type89
+is type91
 
-NotEnoughMoneyException91
+NotEnoughMoneyException93
 %
-businesslogic.BLFacade#close()V93
+businesslogic.BLFacade#close()V95
 
-close94
+close96
 V
-Pbusinesslogic.BLFacade#getDriverReservations(Ljava/lang/String;)Ljava/util/List;96
+Pbusinesslogic.BLFacade#getDriverReservations(Ljava/lang/String;)Ljava/util/List;98
 
-getDriverReservations97
-X
-Rbusinesslogic.BLFacade#getTravelerReservations(Ljava/lang/String;)Ljava/util/List;99
-
-getTravelerReservations100
-C
-<businesslogic.BLFacade#takeMoneyDriver(Ljava/lang/String;I)V102
-
-takeMoneyDriver103
-D
-=businesslogic.BLFacade#putMoneyTraveler(Ljava/lang/String;I)V105
-
-putMoneyTraveler106
-?
-8businesslogic.BLFacade#updateReservation(LReservation;)V108
-
-updateReservation109
-?
-8businesslogic.BLFacade#cancelReservation(LReservation;)V111
-
-cancelReservation112
-U
-Nbusinesslogic.BLFacade#addCarToDriver(Ljava/lang/String;Ljava/lang/String;IZ)V114
-
-addCarToDriver115
- 
-CarAlreadyExistsException117
+getDriverReservations99
 Y
-Rbusinesslogic.BLFacade#getTravelerTransactions(Ljava/lang/String;)Ljava/util/List;119
+Rbusinesslogic.BLFacade#getTravelerReservations(Ljava/lang/String;)Ljava/util/List;101
 
-getTravelerTransactions120
-*
-#Recovered#typeBindingLTransaction;0122
-W
-Pbusinesslogic.BLFacade#getDriverTransactions(Ljava/lang/String;)Ljava/util/List;124
-
-getDriverTransactions125
-O
-Hbusinesslogic.BLFacade#getDriverCars(Ljava/lang/String;)Ljava/util/List;127
-
-getDriverCars128
-
-
-domain.Car130
-V
-Obusinesslogic.BLFacade#removeRideDriver(Ljava/lang/Integer;Ljava/lang/String;)V132
-
-removeRideDriver133
-P
-Ibusinesslogic.BLFacade#getDriverRides(Ljava/lang/String;)Ljava/util/List;135
-
-getDriverRides136
-F
-?businesslogic.BLFacade#deleteAccountDriver(Ljava/lang/String;)V138
-
-deleteAccountDriver139
-H
-Abusinesslogic.BLFacade#deleteAccountTraveler(Ljava/lang/String;)V141
-
-deleteAccountTraveler142
-T
-Mbusinesslogic.BLFacade#getDriverComplaint(Ljava/lang/String;)Ljava/util/List;144
-
-getDriverComplaint145
-(
-!Recovered#typeBindingLComplaint;0147
-W
-Pbusinesslogic.BLFacade#createComplaintToDriver(Ljava/lang/String;LReservation;)V149
-
-createComplaintToDriver150
-X
-Qbusinesslogic.BLFacade#addRatingToDriver(Ljava/lang/String;ILjava/lang/Integer;)V152
-
-addRatingToDriver153
-Z
-Sbusinesslogic.BLFacade#addRatingToTraveler(Ljava/lang/String;ILjava/lang/Integer;)V155
-
-addRatingToTraveler156
-Z
-Sbusinesslogic.BLFacade#createAlert(LTraveler;Ljava/lang/String;Ljava/lang/String;)V158
-
-createAlert159
-'
- Recovered#typeBindingLTraveler;0161
--
-&exceptions.AlertAlreadyExistsException163
-H
-Abusinesslogic.BLFacade#isRideBeenCreated(LAlert;)Ljava/util/List;165
-
-isRideBeenCreated166
-$
-Recovered#typeBindingLAlert;0168
-R
-Kbusinesslogic.BLFacade#getTravelerAlert(Ljava/lang/String;)Ljava/util/List;170
-
-getTravelerAlert171
-?
-8businesslogic.BLFacade#removeAlert(Ljava/lang/Integer;)V173
-
-removeAlert174
+getTravelerReservations102
 C
-<businesslogic.BLFacade#getDriverRatings(Ljava/lang/String;)F176
+<businesslogic.BLFacade#takeMoneyDriver(Ljava/lang/String;I)V104
+
+takeMoneyDriver105
+D
+=businesslogic.BLFacade#putMoneyTraveler(Ljava/lang/String;I)V107
 
-getDriverRatings177
-E
->businesslogic.BLFacade#getTravelerRatings(Ljava/lang/String;)F179
-
-getTravelerRatings180
-a
-Zbusinesslogic.BLFacade#getAdminByEmail(Ljava/lang/String;Ljava/lang/String;)Ldomain/Admin;182
-
-getAdminByEmail183
-
-domain.Admin185
+putMoneyTraveler108
 ?
-8businesslogic.BLFacade#getAllComplaint()Ljava/util/List;187
-
-getAllComplaint188
-9
-2businesslogic.BLFacade#denyComplaint(LComplaint;)V190
+8businesslogic.BLFacade#updateReservation(LReservation;)V110
+
+updateReservation111
+?
+8businesslogic.BLFacade#cancelReservation(LReservation;)V113
+
+cancelReservation114
+U
+Nbusinesslogic.BLFacade#addCarToDriver(Ljava/lang/String;Ljava/lang/String;IZ)V116
+
+addCarToDriver117
+ 
+CarAlreadyExistsException119
+Y
+Rbusinesslogic.BLFacade#getTravelerTransactions(Ljava/lang/String;)Ljava/util/List;121
+
+getTravelerTransactions122
+*
+#Recovered#typeBindingLTransaction;0124
+W
+Pbusinesslogic.BLFacade#getDriverTransactions(Ljava/lang/String;)Ljava/util/List;126
+
+getDriverTransactions127
+O
+Hbusinesslogic.BLFacade#getDriverCars(Ljava/lang/String;)Ljava/util/List;129
 
-denyComplaint191
-;
-4businesslogic.BLFacade#acceptComplaint(LComplaint;)V193
-
-acceptComplaint194
->
-7businesslogic.BLFacade#denyComplaintAdmin(LComplaint;)V196
+getDriverCars130
+"
+Recovered#typeBindingLCar;0132
+V
+Obusinesslogic.BLFacade#removeRideDriver(Ljava/lang/Integer;Ljava/lang/String;)V134
+
+removeRideDriver135
+P
+Ibusinesslogic.BLFacade#getDriverRides(Ljava/lang/String;)Ljava/util/List;137
+
+getDriverRides138
+F
+?businesslogic.BLFacade#deleteAccountDriver(Ljava/lang/String;)V140
+
+deleteAccountDriver141
+H
+Abusinesslogic.BLFacade#deleteAccountTraveler(Ljava/lang/String;)V143
+
+deleteAccountTraveler144
+T
+Mbusinesslogic.BLFacade#getDriverComplaint(Ljava/lang/String;)Ljava/util/List;146
 
-denyComplaintAdmin197
+getDriverComplaint147
+(
+!Recovered#typeBindingLComplaint;0149
+W
+Pbusinesslogic.BLFacade#createComplaintToDriver(Ljava/lang/String;LReservation;)V151
+
+createComplaintToDriver152
+X
+Qbusinesslogic.BLFacade#addRatingToDriver(Ljava/lang/String;ILjava/lang/Integer;)V154
+
+addRatingToDriver155
+Z
+Sbusinesslogic.BLFacade#addRatingToTraveler(Ljava/lang/String;ILjava/lang/Integer;)V157
+
+addRatingToTraveler158
+Z
+Sbusinesslogic.BLFacade#createAlert(LTraveler;Ljava/lang/String;Ljava/lang/String;)V160
+
+createAlert161
+'
+ Recovered#typeBindingLTraveler;0163
+-
+&exceptions.AlertAlreadyExistsException165
+H
+Abusinesslogic.BLFacade#isRideBeenCreated(LAlert;)Ljava/util/List;167
+
+isRideBeenCreated168
+$
+Recovered#typeBindingLAlert;0170
+R
+Kbusinesslogic.BLFacade#getTravelerAlert(Ljava/lang/String;)Ljava/util/List;172
+
+getTravelerAlert173
+?
+8businesslogic.BLFacade#removeAlert(Ljava/lang/Integer;)V175
+
+removeAlert176
+C
+<businesslogic.BLFacade#getDriverRatings(Ljava/lang/String;)F178
+
+getDriverRatings179
+E
+>businesslogic.BLFacade#getTravelerRatings(Ljava/lang/String;)F181
+
+getTravelerRatings182
+Z
+Sbusinesslogic.BLFacade#getAdminByEmail(Ljava/lang/String;Ljava/lang/String;)LAdmin;184
+
+getAdminByEmail185
+
+Admin187
+?
+8businesslogic.BLFacade#getAllComplaint()Ljava/util/List;189
+
+getAllComplaint190
+9
+2businesslogic.BLFacade#denyComplaint(LComplaint;)V192
+
+denyComplaint193
+;
+4businesslogic.BLFacade#acceptComplaint(LComplaint;)V195
+
+acceptComplaint196
+>
+7businesslogic.BLFacade#denyComplaintAdmin(LComplaint;)V198
+
+denyComplaintAdmin199
 Q
-Jbusinesslogic.BLFacade#updateAlerts(Ljava/lang/String;Ljava/lang/String;)V199
+Jbusinesslogic.BLFacade#updateAlerts(Ljava/lang/String;Ljava/lang/String;)V201
 
-updateAlerts200J
+updateAlerts202J
 
 1
 12
@@ -271,13 +273,13 @@ Jbusinesslogic.BLFacade#updateAlerts(Ljava/lang/String;Ljava/lang/String;)V199
 4Z
 
 5	
-576j≠
+576jƒ
 
-71
-717217
+73
+737417
 G
-137@
-13713824 *
+139@
+13914024 *
 1ï ï(28:5B
 
 
@@ -285,10 +287,10 @@ G
 12
 
 13
-139
+141
 G
-169@
-16917024 *
+171@
+17117224 *
 1≠ ≠(28:5B
 
 
@@ -296,10 +298,10 @@ G
 12
 
 13
-171
+173
 E
-101>
-10110224 *
+103>
+10310424 *
 1w w(28:5B
 
 
@@ -307,10 +309,10 @@ E
 12
 
 13
-103
+105
 G
-134@
-13413524 *
+136@
+13613724 *
 1í í(28:5B
 
 
@@ -318,10 +320,10 @@ G
 12
 
 13
-136
+138
 A
-83;
-838424 *
+85;
+858624 *
 1k k(28:5B
 
 
@@ -330,10 +332,10 @@ A
 
 
 13
-85
+87
 G
-178@
-17817924 *
+180@
+18018124 *
 1∂ ∂(28:5B
 
 
@@ -341,10 +343,13 @@ G
 12
 
 13
-180
+182
+
+78
+787917
 A
-49;
-495024 *
+51;
+515224 *
 1Z Z(28:5B
 
 
@@ -353,13 +358,13 @@ A
 
 
 13
-51
+53
 
-67
-676817
+69
+697017
 G
-118@
-11811924 *
+120@
+12012124 *
 1Ü Ü(28:5B
 
 
@@ -367,22 +372,10 @@ G
 12
 
 13
-120
+122
 A
-73;
-737424 *
-1e e(28:5B
-
-
-11
-12
-
-
-13
-75
-A
-95;
-959624 *
+97;
+979824 *
 1q q(28:5B
 
 
@@ -391,16 +384,16 @@ A
 
 
 13
-97
+99
 
 41
 414217
 
-116
-11611717
-B
-98<
-989924 *
+118
+11811917
+E
+100>
+10010124 *
 1t t(28:5B
 
 
@@ -408,13 +401,10 @@ B
 12
 
 13
-100
-
-57
-575817
+102
 A
-46;
-464724 *
+48;
+484924 *
 1T T(28:5B
 
 
@@ -423,10 +413,10 @@ A
 
 
 13
-48
+50
 G
-123@
-12312424 *
+125@
+12512624 *
 1â â(28:5B
 
 
@@ -434,13 +424,28 @@ G
 12
 
 13
-125
+127
 
-86
-868717
+88
+888917
 A
-80;
-808124 *
+33;
+333424 *
+1? ?(28:5B
+
+
+11
+12
+
+
+13
+35
+
+57
+575817
+A
+82;
+828324 *
 1h h(28:5B
 
 
@@ -449,10 +454,25 @@ A
 
 
 13
-82
+84
+
+71
+717217
+A
+54;
+545524 *
+1\ \(28:5B
+
+
+11
+12
+
+
+13
+56
 E
-104>
-10410524 *
+106>
+10610724 *
 1z z(28:5B
 
 
@@ -460,10 +480,21 @@ E
 12
 
 13
-106
+108
+G
+183@
+18318424 *
+1π π(28:5B
+
+
+11
+12
+
+13
+185
 A
-59;
-596024 *
+61;
+616224 *
 1_ _(28:5B
 
 
@@ -472,10 +503,10 @@ A
 
 
 13
-61
+63
 
-146
-14614717
+148
+14814917
 A
 30;
 303124 *
@@ -489,19 +520,8 @@ A
 13
 32
 G
-181@
-18118224 *
-1π π(28:5B
-
-
-11
-12
-
-13
-183
-G
-198@
-19819924 *
+200@
+20020124 *
 1» »(28:5B
 
 
@@ -509,10 +529,10 @@ G
 12
 
 13
-200
+202
 A
-92;
-929324 *
+94;
+949524 *
 1n n(28:5B
 
 
@@ -521,10 +541,10 @@ A
 
 
 13
-94
+96
 G
-113@
-11311424 *
+115@
+11511624 *
 1É É(28:5B
 
 
@@ -532,10 +552,22 @@ G
 12
 
 13
-115
+117
+A
+75;
+757624 *
+1e e(28:5B
+
+
+11
+12
+
+
+13
+77
 G
-192@
-19219324 *
+194@
+19419524 *
 1¬ ¬(28:5B
 
 
@@ -543,10 +575,13 @@ G
 12
 
 13
-194
+196
+
+36
+363717
 E
-107>
-10710824 *
+109>
+10911024 *
 1} }(28:5B
 
 
@@ -554,13 +589,13 @@ E
 12
 
 13
-109
-
-129
-12913017
+111
+
+80
+808117
 G
-189@
-18919024 *
+191@
+19119224 *
 1ø ø(28:5B
 
 
@@ -568,13 +603,13 @@ G
 12
 
 13
-191
+193
 
 15
 151617
 A
-64;
-646524 *
+66;
+666724 *
 1b b(28:5B
 
 
@@ -583,19 +618,13 @@ A
 
 
 13
-66
+68
 
 28
 282917
-
-55
-555617
-
-184
-18418517
 G
-186@
-18618724 *
+188@
+18818924 *
 1º º(28:5B
 
 
@@ -603,10 +632,7 @@ G
 12
 
 13
-188
-
-76
-767717
+190
 
 19
 192017
@@ -614,11 +640,11 @@ G
 26
 262717
 
-167
-16716817
+169
+16917017
 G
-154@
-15415524 *
+156@
+15615724 *
 1§ §(28:5B
 
 
@@ -626,16 +652,13 @@ G
 12
 
 13
-156
+158
 
-69
-697017
-
-90
-909117
+92
+929317
 G
-131@
-13113224 *
+133@
+13313424 *
 1è è(28:5B
 
 
@@ -643,10 +666,10 @@ G
 12
 
 13
-133
+135
 G
-195@
-19519624 *
+197@
+19719824 *
 1≈ ≈(28:5B
 
 
@@ -654,10 +677,10 @@ G
 12
 
 13
-197
+199
 G
-143@
-14314424 *
+145@
+14514624 *
 1õ õ(28:5B
 
 
@@ -665,13 +688,13 @@ G
 12
 
 13
-145
-
-162
-16216317
+147
 
-39
-394017
+46
+464717
+
+164
+16416517
 A
 43;
 434424 *
@@ -685,8 +708,8 @@ A
 13
 45
 G
-151@
-15115224 *
+153@
+15315424 *
 1° °(28:5B
 
 
@@ -694,10 +717,10 @@ G
 12
 
 13
-153
+155
 G
-172@
-17217324 *
+174@
+17417524 *
 1∞ ∞(28:5B
 
 
@@ -705,10 +728,10 @@ G
 12
 
 13
-174
+176
 G
-164@
-16416524 *
+166@
+16616724 *
 1™ ™(28:5B
 
 
@@ -716,13 +739,13 @@ G
 12
 
 13
-166
+168
 
-121
-12112217
+123
+12312417
 G
-148@
-14814924 *
+150@
+15015124 *
 1û û(28:5B
 
 
@@ -730,19 +753,7 @@ G
 12
 
 13
-150
-A
-33;
-333424 *
-1? ?(28:5B
-
-
-11
-12
-
-
-13
-35
+152
 ;
 86
 8910 *
@@ -756,14 +767,14 @@ A
 13
 14
 
-160
-16016117
-
-78
-787917
+162
+16216317
+
+131
+13113217
 G
-110@
-11011124 *
+112@
+11211324 *
 1Ä Ä(28:5B
 
 
@@ -771,7 +782,13 @@ G
 12
 
 13
-112
+114
+
+39
+394017
+
+186
+18618717
 A
 22;
 222324 *
@@ -785,8 +802,8 @@ A
 13
 25
 G
-140@
-14014124 *
+142@
+14214324 *
 1ò ò(28:5B
 
 
@@ -794,10 +811,13 @@ G
 12
 
 13
-142
+144
+
+59
+596017
 G
-157@
-15715824 *
+159@
+15916024 *
 1ß ß(28:5B
 
 
@@ -805,13 +825,10 @@ G
 12
 
 13
-159
-
-36
-363717
+161
 G
-175@
-17517624 *
+177@
+17717824 *
 1≥ ≥(28:5B
 
 
@@ -819,25 +836,13 @@ G
 12
 
 13
-177
+179
 
-62
-626317
-A
-52;
-525324 *
-1\ \(28:5B
-
-
-11
-12
-
-
-13
-54
+64
+646517
 G
-126@
-12612724 *
+128@
+12812924 *
 1å å(28:5B
 
 
@@ -845,7 +850,7 @@ G
 12
 
 13
-128rõ#
+130rû#
 
 81518*
 1   (
@@ -889,428 +894,428 @@ G
 432821*
 1K K(
 
-433621*
+434621*
 1K K(
 
-462618*
+482618*
 1T T(
 
-462821*
+482821*
 1T T(
 
-492618*
+512618*
 1Z Z(
 
-492821*
+512821*
 1Z Z(
 
-525538*
+545738*
 1]	 ](
 
-522618*
+542618*
 1\ \(
 
-522821*
+542821*
 1\ \(
 
-525521*
+545721*
 1]	 ](
 
-525721*
+545921*
 1]P ](i
 
-596238*
+616438*
 1`	 `(
 
-592618*
+612618*
 1_ _(
 
-592821*
+612821*
 1_ _(
 
-596221*
+616421*
 1`	 `(
 
-595721*
+615921*
 1`S `(l
 
-646738*
+666938*
 1c	 c(
 
-642618*
+662618*
 1b b(
 
-642821*
+662821*
 1b b(
 
-646721*
+666921*
 1c	 c(
 
-646921*
+667121*
 1c` c(Ä
 
-647121*
+667321*
 1cÇ c(¢
 
-735538*
+755738*
 1f	 f(
 
-732618*
+752618*
 1e e(
 
-732821*
+752821*
 1e e(
 
-735521*
+755721*
 1f	 f(
 
-737621*
+757821*
 1fG f(`
 
-737821*
+758021*
 1fb f(
 
-806238*
+826438*
 1i	 i(
 
-802618*
+822618*
 1h h(
 
-802821*
+822821*
 1h h(
 
-806221*
+826421*
 1i	 i(
 
-807621*
+827821*
 1iK i(d
 
-807821*
+828021*
 1if i(É
 
-838688*
+858890*
 1l l(
 
-832618*
+852618*
 1k k(
 
-832821*
+852821*
 1k k(
 
-838689*
+858891*
 1l l(!
 
-838621*
+858821*
 1l l(
 
-839021*
+859221*
 1l* l(A
 
-922618*
+942618*
 1n n(
 
-922821*
+942821*
 1n n(
 
-952618*
+972618*
 1q q(
 
-952821*
+972821*
 1q q(
 
-958621*
+978821*
 1r r(
-
-982618*
+
+1002618*
 1t t(
-
-982821*
+
+1002821*
 1t t(
-
-988621*
+
+1008821*
 1u u(
 
-1012618*
+1032618*
 1w w(
 
-1012821*
+1032821*
 1w w(
 
-1019021*
+1039221*
 1x; x(R
 
-1042618*
+1062618*
 1z z(
 
-1042821*
+1062821*
 1z z(
 
-1078688*
+1098890*
 1~  ~(+
 
-1072618*
+1092618*
 1} }(
 
-1072821*
+1092821*
 1} }(
 
-1078689*
+1098891*
 1~, ~(/
 
-1078621*
+1098821*
 1~  ~(+
 
-1108688*
+1128890*
 1Å! Å(,
 
-1102618*
+1122618*
 1Ä Ä(
 
-1102821*
+1122821*
 1Ä Ä(
 
-1108689*
+1128891*
 1Å- Å(0
 
-1108621*
+1128821*
 1Å! Å(,
 
-1132618*
+1152618*
 1É É(
 
-1132821*
+1152821*
 1É É(
 
-11311621*
+11511821*
 1Ñc Ñ(|
 
-1182618*
+1202618*
 1Ü Ü(
 
-1182821*
+1202821*
 1Ü Ü(
 
-11812121*
+12012321*
 1á á(
 
-1232618*
+1252618*
 1â â(
 
-1232821*
+1252821*
 1â â(
 
-12312121*
+12512321*
 1ä ä(
 
-1262618*
+1282618*
 1å å(
 
-1262821*
+1282821*
 1å å(
 
-12612921*
+12813121*
 1ç ç(
 
-1312618*
+1332618*
 1è è(
 
-1312821*
+1332821*
 1è è(
 
-1342618*
+1362618*
 1í í(
 
-1342821*
+1362821*
 1í í(
 
-1343621*
+1364621*
 1ì ì(
 
-1372618*
+1392618*
 1ï ï(
 
-1372821*
+1392821*
 1ï ï(
 
-1402618*
+1422618*
 1ò ò(
 
-1402821*
+1422821*
 1ò ò(
 
-1432618*
+1452618*
 1õ õ(
 
-1432821*
+1452821*
 1õ õ(
 
-14314621*
+14514821*
 1ú ú(
 
-1488688*
+1508890*
 1ü0 ü(;
 
-1482618*
+1502618*
 1û û(
 
-1482821*
+1502821*
 1û û(
 
-1488689*
+1508891*
 1ü< ü(?
 
-1488621*
+1508821*
 1ü0 ü(;
 
-1512618*
+1532618*
 1° °(
 
-1512821*
+1532821*
 1° °(
 
-1542618*
+1562618*
 1§ §(
 
-1542821*
+1562821*
 1§ §(
 
-15716088*
+15916290*
 1® ®("
 
-1572618*
+1592618*
 1ß ß(
 
-1572821*
+1592821*
 1ß ß(
 
-15716089*
+15916291*
 1®# ®($
 
-15716021*
+15916221*
 1® ®("
 
-15716221*
+15916421*
 1®N ®(i
 
-16416788*
+16616990*
 1´& ´(+
 
-1642618*
+1662618*
 1™ ™(
 
-1642821*
+1662821*
 1™ ™(
 
-1643621*
+1664621*
 1´ ´(
 
-16416789*
+16616991*
 1´, ´(1
 
-16416721*
+16616921*
 1´& ´(+
 
-1692618*
+1712618*
 1≠ ≠(
 
-1692821*
+1712821*
 1≠ ≠(
 
-16916721*
+17116921*
 1Æ Æ(
 
-1722618*
+1742618*
 1∞ ∞(
 
-1722821*
+1742821*
 1∞ ∞(
 
-1752618*
+1772618*
 1≥ ≥(
 
-1752821*
+1772821*
 1≥ ≥(
 
-1782618*
+1802618*
 1∂ ∂(
 
-1782821*
+1802821*
 1∂ ∂(
 
-18118438*
+18318638*
 1∫	 ∫(
 
-1812618*
+1832618*
 1π π(
 
-1812821*
+1832821*
 1π π(
 
-18118421*
+18318621*
 1∫	 ∫(
 
-1817621*
+1837821*
 1∫E ∫(^
 
-1817821*
+1838021*
 1∫` ∫(}
 
-1862618*
+1882618*
 1º º(
 
-1862821*
+1882821*
 1º º(
 
-18614621*
+18814821*
 1Ω Ω(
 
-18914688*
+19114890*
 1¿ ¿(%
 
-1892618*
+1912618*
 1ø ø(
 
-1892821*
+1912821*
 1ø ø(
 
-18914689*
+19114891*
 1¿& ¿((
 
-18914621*
+19114821*
 1¿ ¿(%
 
-19214688*
+19414890*
 1√ √('
 
-1922618*
+1942618*
 1¬ ¬(
 
-1922821*
+1942821*
 1¬ ¬(
 
-19214689*
+19414891*
 1√( √(*
 
-19214621*
+19414821*
 1√ √('
 
-19514688*
+19714890*
 1∆! ∆(*
 
-1952618*
+1972618*
 1≈ ≈(
 
-1952821*
+1972821*
 1≈ ≈(
 
-19514689*
+19714891*
 1∆+ ∆(-
 
-19514621*
+19714821*
 1∆! ∆(*
 
-1982618*
+2002618*
 1» »(
 
-1982821*
+2002821*
 1» »(
